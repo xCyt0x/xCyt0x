@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" role="img" aria-labelledby="title">
+  <title id="title">Make something worth sharing.</title>
+  <defs>
+    <linearGradient id="line"><stop stop-color="#70f7dd"/><stop offset=".5" stop-color="#7bc4ff"/><stop offset="1" stop-color="#b49aff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="100" rx="20" fill="#0d1826"/>
+  <path d="M42 24H1158" stroke="url(#line)" stroke-width="2" opacity=".75"/>
+  <circle cx="60" cy="62" r="4" fill="#70f7dd"/>
+  <circle cx="74" cy="62" r="4" fill="#7bc4ff"/>
+  <circle cx="88" cy="62" r="4" fill="#b49aff"/>
+  <text x="600" y="69" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="2" fill="#d8e7ef">MAKE SOMETHING WORTH SHARING.</text>
+  <text x="1143" y="67" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#7390a5">XC / 01</text>
+</svg>
