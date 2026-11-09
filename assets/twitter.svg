@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 42" role="img" aria-label="X / Twitter">
+  <rect x=".5" y=".5" width="143" height="41" rx="12" fill="#0d1a24" stroke="#46796f"/>
+  <path d="M15 13l14 16M28 13L15 29" fill="none" stroke="#72f4db" stroke-width="2" stroke-linecap="round"/>
+  <text x="43" y="26" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing=".7" fill="#e8f3f5">X / TWITTER</text>
+</svg>
