@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 42" role="img" aria-label="Website">
+  <rect x=".5" y=".5" width="143" height="41" rx="12" fill="#0d1a24" stroke="#46796f"/>
+  <circle cx="22" cy="21" r="9" fill="none" stroke="#72f4db" stroke-width="1.5"/>
+  <path d="M13 21h18M22 12c5 5 5 13 0 18M22 12c-5 5-5 13 0 18" fill="none" stroke="#72f4db" stroke-width="1.2"/>
+  <text x="43" y="26" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#e8f3f5">WEBSITE</text>
+</svg>
