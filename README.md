@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="./assets/xcyt0x-mobile.svg#still">
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/xcyt0x-banner.svg#still">
+    <source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="./assets/xcyt0x-mobile-still.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/xcyt0x-banner-still.svg">
     <source media="(max-width: 700px)" srcset="./assets/xcyt0x-mobile.svg">
     <img src="./assets/xcyt0x-banner.svg" width="1200" alt="xCyt0x — BMW diagnostics and coding. Fault analysis and electronic control units.">
   </picture>
