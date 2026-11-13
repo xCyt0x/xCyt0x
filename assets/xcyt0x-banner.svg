@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<svg xmlns="http://www.w3.org/2000/svg" id="still" width="1200" height="420" viewBox="0 0 1200 420">
   <title>xCyt0x — BMW diagnostics and vehicle coding</title>
   <defs>
     <linearGradient id="base" x2="1" y2="1" gradientUnits="objectBoundingBox">
@@ -52,6 +52,7 @@
       .scan { animation: scan 7s ease-in-out infinite; }
       .pulse { animation: pulse 3s ease-in-out infinite; }
     }
+    svg:target .signal, svg:target .scan, svg:target .pulse { animation: none; }
   </style>
   <g clip-path="url(#frame)">
     <rect width="1200" height="420" fill="url(#base)"/>
