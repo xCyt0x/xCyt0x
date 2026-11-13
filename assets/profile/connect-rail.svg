@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="60" viewBox="0 0 1100 60">
+<style>
+@keyframes signal { to { stroke-dashoffset: -240; } }
+@keyframes drift { 50% { transform: translateX(40px); opacity: .74; } }
+@keyframes glow { 50% { opacity: .30; } }
+@keyframes sweep { 0%, 38% { transform: translateX(-260px); opacity: 0; } 47% { opacity: 1; } 78%, 100% { transform: translateX(610px); opacity: 0; } }
+@media (prefers-reduced-motion: no-preference) {
+  .signal { animation: signal 6s linear infinite; }
+  .drift { animation: drift 7s ease-in-out infinite; }
+  .glow { animation: glow 4s ease-in-out infinite; }
+  .sweep { animation: sweep 9s ease-in-out infinite; }
+}
+</style>
+<path d="M50 8h212l32 22h251m505-22H838l-32 22H555M50 52h212l32-22m756 22H838l-32-22" fill="none" stroke="#6f76a2" stroke-width="2" stroke-opacity=".73"/>
+<path class="signal" d="M50 8h212l32 22h251m505-22H838l-32 22H555M50 52h212l32-22m756 22H838l-32-22" fill="none" stroke="#c7ff87" stroke-width="2.8" stroke-dasharray="24 216" stroke-linecap="round"/>
+<circle cx="550" cy="30" r="12" fill="#181e2b" stroke="#656e92"/><circle class="glow" cx="550" cy="30" r="4" fill="#c7ff87"/>
+<circle cx="50" cy="8" r="4" fill="#c7ff87"/><circle cx="1050" cy="8" r="4" fill="#a0c6ff"/><circle cx="50" cy="52" r="4" fill="#f9a9d7"/><circle cx="1050" cy="52" r="4" fill="#ffbc8b"/>
+</svg>

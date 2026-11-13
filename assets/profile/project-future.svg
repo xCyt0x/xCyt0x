@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="160" viewBox="0 0 550 160">
+<title>In exploration — New areas · pre-launch</title>
+<defs>
+  <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#171c2a"/><stop offset="1" stop-color="#0c101b"/></linearGradient>
+  <radialGradient id="violet"><stop stop-color="#6750c9" stop-opacity=".40"/><stop offset="1" stop-color="#6750c9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="mint"><stop stop-color="#60bd78" stop-opacity=".20"/><stop offset="1" stop-color="#60bd78" stop-opacity="0"/></radialGradient>
+  <linearGradient id="word" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#c7cbe7"/></linearGradient>
+  <linearGradient id="shine"><stop stop-color="#bfff83" stop-opacity="0"/><stop offset=".50" stop-color="#d5ffad" stop-opacity=".55"/><stop offset="1" stop-color="#bfff83" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" fill="none" stroke="#838aac" stroke-opacity=".13"/></pattern>
+  <clipPath id="frame"><rect width="550" height="160" rx="25"/></clipPath>
+</defs>
+<style>
+@keyframes signal { to { stroke-dashoffset: -240; } }
+@keyframes drift { 50% { transform: translateX(40px); opacity: .74; } }
+@keyframes glow { 50% { opacity: .30; } }
+@keyframes sweep { 0%, 38% { transform: translateX(-260px); opacity: 0; } 47% { opacity: 1; } 78%, 100% { transform: translateX(610px); opacity: 0; } }
+@media (prefers-reduced-motion: no-preference) {
+  .signal { animation: signal 6s linear infinite; }
+  .drift { animation: drift 7s ease-in-out infinite; }
+  .glow { animation: glow 4s ease-in-out infinite; }
+  .sweep { animation: sweep 9s ease-in-out infinite; }
+}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="550" height="160" fill="url(#surface)"/>
+  <ellipse cx="468" cy="57" rx="230" ry="125" fill="url(#violet)" opacity="0.75"/>
+ <g stroke="#baadff" stroke-opacity=".18" fill="none" stroke-width="1.6"><circle cx="435" cy="72" r="29"/><circle cx="435" cy="72" r="44" stroke-dasharray="2 6"/><path d="M390 72h90m-45-45v90m0-45 31-28"/></g>
+ <rect x="375" width="175" height="160" fill="url(#grid)"/>
+ <path d="M0 23Q0 0 23 0h67" fill="none" stroke="#baadff" stroke-width="3"/>
+ <path d="M0 144h97l14-11h100m148 0h74l12-11h105" fill="none" stroke="#baadff" stroke-opacity=".24" stroke-width="1.4"/>
+ <path class="signal" style="animation-delay:-0.58s" d="M0 144h97l14-11h100m148 0h74l12-11h105" fill="none" stroke="#baadff" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="26 214"/>
+ <rect x="26" y="49" width="62" height="62" rx="14" fill="#baadff" fill-opacity=".11" stroke="#baadff" stroke-opacity=".45"/>
+ <g transform="translate(43 66) scale(1.17)" fill="none" stroke="#baadff" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="m12 12 7-7M12 1v2M23 12h-2M12 23v-2M1 12h2"/></g>
+ <text x="110" y="78" fill="#f2f5fb" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="750">In exploration</text>
+ <text x="112" y="119" fill="#b0bad3" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">New areas · pre-launch</text>
+ <circle class="glow" cx="502" cy="65" r="8" fill="#baadff" opacity=".76"/><circle cx="502" cy="65" r="17" fill="none" stroke="#baadff" opacity=".42"/>
+</g>
+<rect x="1" y="1" width="548" height="158" rx="24" fill="none" stroke="#454d68" stroke-width="2"/>
+</svg>
