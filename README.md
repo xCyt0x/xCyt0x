@@ -1,25 +1,24 @@
-<p>
-  <img src="./assets/profile-cover.webp" alt="Brushed titanium X with a cyan edge on a dark background" width="1600" height="533">
+<p align="center">
+  <picture>
+    <source media="(max-width: 700px)" srcset="./assets/xcyt0x-mobile.svg">
+    <img src="./assets/xcyt0x-banner.svg" width="1200" alt="xCyt0x — BMW diagnostics and coding. Fault analysis and electronic control units.">
+  </picture>
 </p>
 
-# Kamran · xCyt0x
+I’m **xCyt0x**. I diagnose faults in **BMW electronic systems**, evaluate control units, and code features that the vehicle supports. I also work on digital projects.
 
-I work on **BMW diagnostics and vehicle coding**, with a focus on fault analysis and electronic control units.
+## Projects
 
-## KG Premium
+- [**KG Premium**](https://kgpremium.com/) — BMW technical content and a [digital shop](https://kgpremium.com/shop) for tools and files.
 
-I share BMW technical content and offer digital tools and files through KG Premium.
-
-[**Explore KG Premium**](https://kgpremium.com/) · [Digital shop](https://kgpremium.com/shop) · [Contact](https://kgpremium.com/contact)
-
-[X](https://twitter.com/xCyt0x) · [Instagram](https://www.instagram.com/kamranghezavati/) · [Reddit](https://www.reddit.com/user/xCyt0x/)
+[Contact](https://kgpremium.com/contact) · [X](https://twitter.com/xCyt0x) · [Instagram](https://www.instagram.com/kamranghezavati/) · [Reddit](https://www.reddit.com/user/xCyt0x/)
 
 <details>
 <summary>معرفی به فارسی</summary>
 
 <div dir="rtl" align="right" lang="fa">
 
-من کامران هستم. روی عیب‌یابی و کدینگ BMW کار می‌کنم و تمرکزم روی تحلیل خطاها و بررسی یونیت‌های الکترونیکی خودروست. در [KG Premium](https://kgpremium.com/) محتوای تخصصی BMW، فایل‌ها و ابزارهای دیجیتال را منتشر می‌کنم.
+من **xCyt0x** هستم. خطاهای سیستم‌های الکترونیکی BMW را بررسی می‌کنم، عملکرد یونیت‌ها را ارزیابی می‌کنم و قابلیت‌های سازگار با خودرو را کدینگ می‌کنم. در کنار کار خودرو، روی پروژه‌های دیجیتال هم کار می‌کنم.
 
 </div>
 </details>

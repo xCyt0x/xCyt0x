@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <title>xCyt0x — BMW diagnostics and vehicle coding</title>
+  <defs>
+    <linearGradient id="base" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0a1321"/>
+      <stop offset=".62" stop-color="#0b1625"/>
+      <stop offset="1" stop-color="#050b14"/>
+    </linearGradient>
+    <radialGradient id="aura" gradientTransform="translate(.77 .51) scale(.46 .79)" cx="0" cy="0" r="1">
+      <stop stop-color="#123f59"/>
+      <stop offset=".58" stop-color="#102537"/>
+      <stop offset="1" stop-color="#0a1422" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2=".9" y2="1">
+      <stop stop-color="#263f53"/>
+      <stop offset=".45" stop-color="#101e2e"/>
+      <stop offset="1" stop-color="#0b121d"/>
+    </linearGradient>
+    <linearGradient id="edge">
+      <stop stop-color="#77e6ff"/>
+      <stop offset=".54" stop-color="#39a4d9"/>
+      <stop offset="1" stop-color="#3a5874"/>
+    </linearGradient>
+    <linearGradient id="word" x2="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d3e9f5"/>
+    </linearGradient>
+    <linearGradient id="sweep" x2="0" y2="1">
+      <stop stop-color="#62deff" stop-opacity="0"/>
+      <stop offset=".89" stop-color="#62deff" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#62deff" stop-opacity=".38"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0v30" fill="none" stroke="#739fb6" stroke-opacity=".12"/>
+    </pattern>
+    <pattern id="vents" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M2 0v8" stroke="#7dbcd5" stroke-opacity=".27" stroke-width="2"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-50%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="418" rx="27"/></clipPath>
+    <clipPath id="chip-clip"><path d="M725 144 930 88l158 76v106l-205 57-158-78z"/></clipPath>
+  </defs>
+  <style>
+    @keyframes trace { to { stroke-dashoffset: -410; } }
+    @keyframes scan { 0%, 14% { transform: translateY(0); opacity: 0; } 24% { opacity: .7; } 72% { opacity: .7; } 86%, 100% { transform: translateY(194px); opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: .32; } 50% { opacity: .94; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: trace 6s linear infinite; }
+      .scan { animation: scan 7s ease-in-out infinite; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#base)"/>
+    <rect width="1200" height="420" fill="url(#aura)"/>
+    <rect x="617" width="583" height="420" fill="url(#grid)"/>
+    <path d="M617 0v420M0 362h1200" fill="none" stroke="#8fb7d5" stroke-opacity=".18"/>
+    <path d="M625 0v39l-15 15v286l15 15v65" fill="none" stroke="#56b4d3" stroke-opacity=".26"/>
+    <path d="M635 37h95l29 29h125m-242 250h93l36 36h78l39 39h181m-16-338h69l33 32v78l45 44m-147 119h69l40-39h43" fill="none" stroke="#4ca0bc" stroke-opacity=".32" stroke-width="1.5"/>
+    <path d="M633 112h62l36 36 97 47h173l52 48h114m-525 74h93l36 35h78l39 39h179" fill="none" stroke="#58cde5" stroke-opacity=".27" stroke-width="2"/>
+    <path class="signal" d="M633 112h62l36 36 97 47h173l52 48h114m-525 74h93l36 35h78l39 39h179" fill="none" stroke="#69e8ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="34 376" stroke-dashoffset="-34" filter="url(#glow)"/>
+    <path d="M682 260 848 349l264-74m-411-40 165 86 247-67m-427 41 158 86 261-77" fill="none" stroke="#4b7d99" stroke-opacity=".35" stroke-dasharray="4 6"/>
+    <path d="M672 284l182 89 281-80m-400 38 118 59 185-52m-304-33 118 61 189-54" fill="none" stroke="#4599be" stroke-opacity=".23"/>
+    <path d="M664 286l17 8m370 25 24-7m-243 68 21 10 27-8m229-92 29-8" fill="none" stroke="#63dfff" stroke-opacity=".49" stroke-width="2"/>
+    <g stroke-linejoin="round">
+      <path d="M725 199l158 78 205-57v50l-205 57-158-78z" fill="#080e18" stroke="#33546c" stroke-width="2"/>
+      <path d="M883 277l205-57v50l-205 57z" fill="#111c2c" stroke="#33546c"/>
+      <path d="M725 144 930 88l158 76-205 58z" fill="url(#chip)" stroke="url(#edge)" stroke-width="2.3"/>
+      <path d="M725 144l158 78v70l-158-78z" fill="#101c2b" stroke="#47728d" stroke-width="1.8"/>
+      <path d="M883 222l205-58v70l-205 58z" fill="#122536" stroke="#47728d" stroke-width="1.8"/>
+      <path d="M740 147 930 96l142 68-188 54z" fill="none" stroke="#4a738c" stroke-width="1.4"/>
+      <path d="M802 146l124-33 92 43-125 36z" fill="#080f1a" stroke="#6cc7e7" stroke-opacity=".62" stroke-width="1.6"/>
+      <path d="M820 146l105-28 75 36-107 31z" fill="#142c40" stroke="#2f5a70"/>
+      <path d="M848 147l75-20 55 27-76 21z" fill="#102034" stroke="#81e4ff" stroke-opacity=".66"/>
+      <path d="M871 148l45-12 40 18-46 13z" fill="#2d5368" stroke="#73e5f8" stroke-width="1.5"/>
+      <path d="M790 151l9 4m-1-6 9 4m-1-6 9 4m-1-6 9 4m-1-6 9 4m-1-6 9 4m-1-6 9 4m-1-6 9 4m57 40 4 2m3-4 4 2m3-4 4 2m3-4 4 2m3-4 4 2m3-4 4 2m3-4 4 2" fill="none" stroke="#87d9ea" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+      <path d="M913 234l147-41v27l-147 42z" fill="#0a111d" stroke="#3b617a"/>
+      <path d="M921 239l132-37v13l-132 37z" fill="url(#vents)"/>
+      <path d="M742 173l122 60v34l-122-60z" fill="#0c131e" stroke="#40677e"/>
+      <path d="M750 184l106 52v17l-106-52z" fill="url(#vents)"/>
+      <path d="M895 301l66-18m12-3 42-12" fill="none" stroke="#7ca3b8" stroke-opacity=".65" stroke-width="2"/>
+      <path d="M1034 263l39-11" fill="none" stroke="#f5a865" stroke-width="2"/>
+      <circle class="pulse" cx="1078" cy="251" r="3" fill="#ffc383" filter="url(#glow)"/>
+      <path d="M747 145l41-11m161-33 34 17m-98 99 42-11" fill="none" stroke="#a3eaff" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g clip-path="url(#chip-clip)"><rect class="scan" x="710" y="81" width="391" height="33" fill="url(#sweep)" opacity="0"/></g>
+    <path d="M1070 88h51v24m-384 183v24h42" fill="none" stroke="#79d9f4" stroke-opacity=".75" stroke-width="1.5"/>
+    <circle cx="633" cy="112" r="3" fill="#83e2fa"/>
+    <circle cx="1167" cy="243" r="3" fill="#83e2fa"/>
+    <path d="M53 50h30m-30 0v30m1094 270v20h-21" fill="none" stroke="#74dfff" stroke-opacity=".65" stroke-width="2"/>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="66" y="103" fill="#7be7fc" font-size="24" font-weight="650" letter-spacing="2.4">VEHICLE ELECTRONICS</text>
+      <text x="57" y="235" fill="url(#word)" font-size="130" font-weight="800" letter-spacing="-2.5">xCyt0x</text>
+      <path d="M65 265h82" stroke="#69d9f6" stroke-width="4" stroke-linecap="round"/>
+      <text x="65" y="322" fill="#d6e7f5" font-size="36" font-weight="600">BMW diagnostics &amp; coding</text>
+      <text x="65" y="396" fill="#a3b8cc" font-size="22" font-weight="600">Fault analysis · Electronic control units</text>
+    </g>
+  </g>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="26" fill="none" stroke="#476781" stroke-width="2"/>
+</svg>
