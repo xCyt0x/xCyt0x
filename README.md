@@ -30,7 +30,7 @@ I’m **xCyt0x**. My work spans **automotive systems and digital projects**. In 
 ## Activity
 
 <p align="center">
-  <a href="https://github.com/xCyt0x#js-contribution-activity"><picture><source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/activity-mobile-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/activity-still.svg"><source media="(max-width: 700px)" srcset="./assets/profile/activity-mobile.svg"><img src="./assets/profile/activity.svg" width="1200" alt="GitHub public activity snapshot. Open the full contribution graph."></picture></a>
+  <a href="https://github.com/xCyt0x#js-contribution-activity"><picture><source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/activity-mobile-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/activity-still.svg"><source media="(max-width: 700px)" srcset="./assets/profile/activity-mobile.svg"><img src="./assets/profile/activity.svg" width="1200" alt="GitHub activity snapshot including public and anonymized private contributions. Open the live contribution graph."></picture></a>
 </p>
 
 <details>
