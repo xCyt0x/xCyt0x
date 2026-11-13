@@ -1,24 +1,25 @@
-<div align="center">
+<p>
+  <img src="./assets/profile-cover.webp" alt="Brushed titanium X with a cyan edge on a dark background" width="1600" height="533">
+</p>
 
-<img src="./assets/hero.svg" width="100%" alt="xCyt0x — exploring, building, refining" />
+# Kamran · xCyt0x
 
-<br />
+I work on **BMW diagnostics and vehicle coding**, with a focus on fault analysis and electronic control units.
 
-### Hi, I'm xCyt0x <span aria-hidden="true">✦</span> سلام، من xCyt0x هستم
+## KG Premium
 
-I like turning an interesting idea into something real, useful, and thoughtfully made.
+I share BMW technical content and offer digital tools and files through KG Premium.
 
-<sub>Curiosity first. Details matter. Keep creating.</sub>
+[**Explore KG Premium**](https://kgpremium.com/) · [Digital shop](https://kgpremium.com/shop) · [Contact](https://kgpremium.com/contact)
 
-<br /><br />
+[X](https://twitter.com/xCyt0x) · [Instagram](https://www.instagram.com/kamranghezavati/) · [Reddit](https://www.reddit.com/user/xCyt0x/)
 
-<a href="https://kgpremium.com"><img src="https://img.shields.io/badge/WEBSITE-0d1a24?style=for-the-badge&logo=googlechrome&logoColor=73f7e0&labelColor=0d1a24" alt="Website" /></a>
-<a href="https://twitter.com/xCyt0x"><img src="https://img.shields.io/badge/X%20%2F%20TWITTER-0d1a24?style=for-the-badge&logo=x&logoColor=73f7e0&labelColor=0d1a24" alt="X / Twitter" /></a>
-<a href="https://www.instagram.com/kamranghezavati/"><img src="https://img.shields.io/badge/INSTAGRAM-0d1a24?style=for-the-badge&logo=instagram&logoColor=73f7e0&labelColor=0d1a24" alt="Instagram" /></a>
-<a href="https://www.reddit.com/user/xCyt0x/"><img src="https://img.shields.io/badge/REDDIT-0d1a24?style=for-the-badge&logo=reddit&logoColor=73f7e0&labelColor=0d1a24" alt="Reddit" /></a>
+<details>
+<summary>معرفی به فارسی</summary>
 
-<br /><br />
+<div dir="rtl" align="right" lang="fa">
 
-<img src="./assets/footer.svg" width="100%" alt="Make something worth sharing." />
+من کامران هستم. روی عیب‌یابی و کدینگ BMW کار می‌کنم و تمرکزم روی تحلیل خطاها و بررسی یونیت‌های الکترونیکی خودروست. در [KG Premium](https://kgpremium.com/) محتوای تخصصی BMW، فایل‌ها و ابزارهای دیجیتال را منتشر می‌کنم.
 
 </div>
+</details>
