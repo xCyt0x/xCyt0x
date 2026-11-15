@@ -29,10 +29,10 @@
   to { stroke-dashoffset: 0; opacity: .65; }
 }
 @media (prefers-reduced-motion: no-preference) {
-  .signal { animation: signal-rise 3.55s cubic-bezier(.22,.65,.32,1) both; }
-  .glow { animation: node-rise 2.15s ease-in-out both; }
-  .drift { animation: node-rise 3.6s ease-in-out both; }
-  .sweep { animation: scan-across 4.1s ease-out both; }
+  .signal { animation: signal-rise 7.6s cubic-bezier(.22,.65,.32,1) infinite both; }
+  .glow { animation: node-rise 5.4s ease-in-out infinite both; }
+  .drift { animation: node-rise 6.8s ease-in-out infinite both; }
+  .sweep { animation: scan-across 8.4s ease-in-out infinite both; }
   .orbit-accent { animation: orbit-arrive 2.8s cubic-bezier(.2,.64,.33,1) both; }
 }
 </style>
