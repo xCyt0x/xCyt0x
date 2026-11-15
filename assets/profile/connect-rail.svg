@@ -1,14 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="60" viewBox="0 0 1100 60">
 <style>
-@keyframes signal { to { stroke-dashoffset: -240; } }
-@keyframes drift { 50% { transform: translateX(40px); opacity: .74; } }
-@keyframes glow { 50% { opacity: .30; } }
-@keyframes sweep { 0%, 38% { transform: translateX(-260px); opacity: 0; } 47% { opacity: 1; } 78%, 100% { transform: translateX(610px); opacity: 0; } }
+@keyframes signal-rise {
+  0% { stroke-dashoffset: var(--signal-start, 180); opacity: 0; }
+  24%, 72% { opacity: 1; }
+  100% { stroke-dashoffset: var(--signal-end, -130); opacity: 0; }
+}
+@keyframes node-rise {
+  0%, 100% { opacity: .42; }
+  52% { opacity: 1; }
+}
+@keyframes scan-across {
+  0%, 12% { transform: translateX(-240px); opacity: 0; }
+  28% { opacity: .7; }
+  78%, 100% { transform: translateX(550px); opacity: 0; }
+}
+@keyframes orbit-arrive {
+  from { stroke-dashoffset: 270; opacity: .04; }
+  to { stroke-dashoffset: 0; opacity: .65; }
+}
 @media (prefers-reduced-motion: no-preference) {
-  .signal { animation: signal 6s linear infinite; }
-  .drift { animation: drift 7s ease-in-out infinite; }
-  .glow { animation: glow 4s ease-in-out infinite; }
-  .sweep { animation: sweep 9s ease-in-out infinite; }
+  .signal { animation: signal-rise 3.55s cubic-bezier(.22,.65,.32,1) both; }
+  .glow { animation: node-rise 2.15s ease-in-out both; }
+  .drift { animation: node-rise 3.6s ease-in-out both; }
+  .sweep { animation: scan-across 4.1s ease-out both; }
+  .orbit-accent { animation: orbit-arrive 2.8s cubic-bezier(.2,.64,.33,1) both; }
 }
 </style>
 <path d="M50 8h212l32 22h251m505-22H838l-32 22H555M50 52h212l32-22m756 22H838l-32-22" fill="none" stroke="#6f76a2" stroke-width="2" stroke-opacity=".73"/>

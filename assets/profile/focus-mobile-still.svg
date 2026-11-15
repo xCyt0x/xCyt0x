@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="433" viewBox="0 0 500 433" role="img" aria-labelledby="focus-title focus-desc">
+<title id="focus-title">Areas of focus</title>
+<desc id="focus-desc">Automotive diagnostics and vehicle coding, digital resources and tools through KG Premium, and web and Discord community support.</desc>
+<defs><linearGradient id="canvas" x2="1" y2="1"><stop stop-color="#191e30"/><stop offset=".98" stop-color="#101421"/></linearGradient><linearGradient id="lead" x2="1"><stop stop-color="#a98fff"/><stop offset=".6" stop-color="#bfff83"/><stop offset="1" stop-color="#96cfff"/></linearGradient></defs>
+<style>.subject{font:650 23px system-ui,-apple-system,Segoe UI,sans-serif;fill:#f2f5fb}.copy{font:16px system-ui,-apple-system,Segoe UI,sans-serif;fill:#b6bfd7}.icon{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.node{fill:currentColor;stroke:#151a27;stroke-width:1}</style>
+<rect x=".5" y=".5" width="499" height="432" rx="23" fill="url(#canvas)" stroke="#353d57"/>
+<g transform="translate(0 -53)">
+<path d="M33 82v353" stroke="#343b51"/><path d="M33 95v326" stroke="url(#lead)" opacity=".33"/>
+<circle class="signal phase-a" cx="33" cy="135" r="8" fill="#bcff87" opacity=".25"/>
+<circle cx="33" cy="135" r="2.5" fill="#bcff87"/>
+<g transform="translate(52 85)">
+<rect x=".5" y=".5" width="419" height="102" rx="14" fill="#101522" fill-opacity=".65" stroke="#333b50"/>
+<g transform="translate(12 23)" color="#bcff87"><rect width="56" height="56" rx="11" fill="currentColor" opacity=".10"/><g class="icon"><path d="M6 29h8l6-13 8 25 7-19 4 7h11"/><path d="M9 44h35"/><circle cx="48" cy="29" r="2.5" class="node"/></g></g>
+<text x="82" y="36" class="subject">Automotive diagnostics</text>
+<text x="82" y="59" class="copy"><tspan x="82">Fault analysis, electronic</tspan><tspan x="82" dy="21">control units and vehicle coding.</tspan></text>
+</g>
+<circle class="signal phase-b" cx="33" cy="260" r="8" fill="#c2abff" opacity=".25"/>
+<circle cx="33" cy="260" r="2.5" fill="#c2abff"/>
+<g transform="translate(52 210)">
+<rect x=".5" y=".5" width="419" height="102" rx="14" fill="#101522" fill-opacity=".65" stroke="#333b50"/>
+<g transform="translate(12 23)" color="#c2abff"><rect width="56" height="56" rx="11" fill="currentColor" opacity=".10"/><g class="icon"><path d="M28 9 47 19 28 29 9 19 28 9Z"/><path d="m9 28 19 10 19-10m-38 9 19 10 19-10"/><circle cx="47" cy="19" r="2.5" class="node"/></g></g>
+<text x="82" y="36" class="subject">Digital products</text>
+<text x="82" y="59" class="copy"><tspan x="82">Technical resources and tools</tspan><tspan x="82" dy="21">available through KG Premium.</tspan></text>
+</g>
+<circle class="signal phase-c" cx="33" cy="385" r="8" fill="#99d7ff" opacity=".25"/>
+<circle cx="33" cy="385" r="2.5" fill="#99d7ff"/>
+<g transform="translate(52 335)">
+<rect x=".5" y=".5" width="419" height="102" rx="14" fill="#101522" fill-opacity=".65" stroke="#333b50"/>
+<g transform="translate(12 23)" color="#99d7ff"><rect width="56" height="56" rx="11" fill="currentColor" opacity=".10"/><g class="icon"><path d="M13 14h17c5 0 8 3 8 8v7c0 5-3 8-8 8h-7l-8 7v-7h-2c-5 0-8-3-8-8v-7c0-5 3-8 8-8Z"/><path d="M38 24h7c4 0 7 3 7 7v5c0 3-3 6-7 6v5l-6-5h-8"/><path d="M15 24h13m-13 6h8"/><circle cx="45" cy="42" r="2.5" class="node"/></g></g>
+<text x="82" y="36" class="subject">Web &amp; community</text>
+<text x="82" y="59" class="copy"><tspan x="82">A website and Discord community</tspan><tspan x="82" dy="21">for resources and support.</tspan></text>
+</g>
+</g>
+</svg>
