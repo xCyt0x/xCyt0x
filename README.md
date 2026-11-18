@@ -33,6 +33,8 @@ The site brings together my automotive portfolio, digital product delivery, and 
 
 </details>
 
+**Factorasion · Beta** is a Windows desktop app for small-business accounting, invoices, and quotes. It is still in development.
+
 ## Connect
 
 <p align="center">
@@ -61,6 +63,8 @@ The snapshot covers **16 August–14 November 2026 (UTC)**. It uses the totals v
 <div dir="rtl" align="right" lang="fa">
 
 من **xCyt0x** هستم. در زمینهٔ سیستم‌های خودرو و پروژه‌های دیجیتال کار می‌کنم و چند حوزهٔ دیگر را هم در دست بررسی دارم. روی خودروهای برندهای مختلف کار می‌کنم. تحلیل خطاهای BMW، بررسی یونیت‌ها و کدینگ خودرو بخشی از کار من است. [KG Premium](https://kgpremium.com/) یکی از پروژه‌هایم برای انتشار منابع تخصصی و ابزارهای دیجیتال است.
+
+**فاکتوراسیون · بتا** اپلیکیشن ویندوزی حسابداری، فاکتور و پیش‌فاکتور کسب‌وکارهاست و هنوز در حال توسعه است.
 
 [نمونه‌کارهای خودرو](https://kgpremium.com/contact#about) · [فروشگاه دیجیتال](https://kgpremium.com/shop) · [راه‌های ارتباط](https://kgpremium.com/contact)
 
