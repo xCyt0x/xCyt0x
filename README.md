@@ -21,7 +21,7 @@ I’m **xCyt0x**. My work spans **automotive systems and digital projects**. I w
 </p>
 
 <p align="center">
-  <picture><source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/xCyt0x/xCyt0x/8000028c19b8fa51741ec1f666b5cc81bb6ddbc3/assets/profile/project-factorasion-mobile-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/xCyt0x/xCyt0x/8000028c19b8fa51741ec1f666b5cc81bb6ddbc3/assets/profile/project-factorasion-still.svg"><source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/xCyt0x/xCyt0x/8000028c19b8fa51741ec1f666b5cc81bb6ddbc3/assets/profile/project-factorasion-mobile.svg"><img src="https://raw.githubusercontent.com/xCyt0x/xCyt0x/8000028c19b8fa51741ec1f666b5cc81bb6ddbc3/assets/profile/project-factorasion.svg" width="48%" alt="Factorasion · Beta · Public release pending"></picture>
+  <picture><source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/xCyt0x/xCyt0x/6877e9284afd1234213d5e369943cdca6a9aaba1/assets/profile/project-factorasion-mobile-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/xCyt0x/xCyt0x/6877e9284afd1234213d5e369943cdca6a9aaba1/assets/profile/project-factorasion-still.svg"><source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/xCyt0x/xCyt0x/6877e9284afd1234213d5e369943cdca6a9aaba1/assets/profile/project-factorasion-mobile.svg"><img src="https://raw.githubusercontent.com/xCyt0x/xCyt0x/6877e9284afd1234213d5e369943cdca6a9aaba1/assets/profile/project-factorasion.svg" width="48%" alt="Factorasion · Private beta · In development"></picture>
 </p>
 
 **KG Premium** is where I share technical resources for BMW and offer digital tools through the [shop](https://kgpremium.com/shop). 
@@ -37,7 +37,7 @@ The site brings together my automotive portfolio, digital product delivery, and 
 
 </details>
 
-**Factorasion · Beta** is a Windows desktop app for small-business accounting, invoices, and quotes. A public release is pending.
+**Factorasion · Private beta** is a Windows desktop app for small-business accounting, invoices, and quotes.
 
 ## Connect
 
@@ -68,7 +68,7 @@ The snapshot covers **16 August–14 November 2026 (UTC)**. It uses the totals v
 
 من **xCyt0x** هستم. در زمینهٔ سیستم‌های خودرو و پروژه‌های دیجیتال کار می‌کنم و چند حوزهٔ دیگر را هم در دست بررسی دارم. روی خودروهای برندهای مختلف کار می‌کنم. تحلیل خطاهای BMW، بررسی یونیت‌ها و کدینگ خودرو بخشی از کار من است. [KG Premium](https://kgpremium.com/) یکی از پروژه‌هایم برای انتشار منابع تخصصی و ابزارهای دیجیتال است.
 
-**فاکتوراسیون · بتا** اپلیکیشن ویندوزی حسابداری، فاکتور و پیش‌فاکتور کسب‌وکارهاست و در انتظار انتشار عمومی است.
+**فاکتوراسیون · بتای خصوصی** اپلیکیشن ویندوزی حسابداری، فاکتور و پیش‌فاکتور کسب‌وکارهاست.
 
 [نمونه‌کارهای خودرو](https://kgpremium.com/contact#about) · [فروشگاه دیجیتال](https://kgpremium.com/shop) · [راه‌های ارتباط](https://kgpremium.com/contact)
 
